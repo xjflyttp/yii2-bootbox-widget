@@ -15,7 +15,7 @@ class BootboxAsset extends AssetBundle {
     public $basePath = '@webroot/assets';
     public $js = ['bootbox.js'];
     public $depends = [
-        'yii\bootstrap\BootstrapAsset'
+        'yii\bootstrap\BootstrapPluginAsset'
     ];
 
 }
