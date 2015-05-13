@@ -8,6 +8,8 @@
             "email": "xjflyttp@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "~2.0.0",
