@@ -15,4 +15,7 @@ In View
 ```php
 use xj\bootbox\BootboxAsset;
 BootboxAsset::register($this);
+
+//register with replace Yii.confirm
+BootboxAsset::registerWithOverride($this);
 ```
