@@ -12,7 +12,7 @@
     "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*",
         "bower-asset/bootbox": "~4.4.0"
     },
     "autoload": {
