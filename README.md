@@ -17,5 +17,7 @@ use xj\bootbox\BootboxAsset;
 BootboxAsset::register($this);
 
 //register with replace Yii.confirm
+BootboxOverrideAsset::register($this);
+//OR
 BootboxAsset::registerWithOverride($this);
 ```
